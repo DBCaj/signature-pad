@@ -16,7 +16,8 @@ return new class extends Migration
         Schema::create('signatures', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name')->nullable();
-            $table->string('signature')->nullable();
+            $table->string('signature_name')->nullable();
+            $table->string('signature_location')->nullable();
             $table->timestamps();
         });
     }

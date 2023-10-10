@@ -16,6 +16,7 @@ class Signature extends Model
     protected $fillable = [
       'id',
       'name',
-      'signature',
+      'signature_name',
+      'signature_location',
       ];
 }
