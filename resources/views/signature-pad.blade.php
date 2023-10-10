@@ -1,19 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Laravel Signature Pad Example - MyNotePaper.com</title>
-    
-    <x-bootstrap-package />
-    <x-signature-pad-package />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Signature Pad</title>
+  
+  <x-bootstrap-package />
+  <x-signature-pad-package />
 
-    <style>
-        .kbw-signature {
-            width: 100%;
-            height: 200px;
-        }
-    </style>
+  <style>
+    .kbw-signature {
+      width: 100%;
+      height: 200px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
+  <div class="container">
         <div class="row">
             <div class="col-md-6 offset-md-3 mt-5">
                 <div class="card">
@@ -28,6 +32,7 @@
         </div>
     </div>
   
-    <x-signature-pad-js />
+  <x-signature-pad-js />
+  
 </body>
 </html>
