@@ -1,9 +1,1 @@
-Areas of Improvements:
-
-- make it drawable on mobile and tablet device.
-
-==================================================
-
-Changes:
-
-Minor fix: mobile responsiveness.
+This Signature Pad only works on PC and is available only on Laravel 9.x and above.
